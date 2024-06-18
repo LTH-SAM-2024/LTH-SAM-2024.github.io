@@ -3474,8 +3474,8 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
-					font-weight: 600;
+					font-size: 1.0em;
+					font-weight: 800;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
 				}
