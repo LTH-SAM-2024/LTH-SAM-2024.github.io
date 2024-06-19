@@ -2520,8 +2520,8 @@ input, select, textarea {
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 1.0em;
-		font-weight: 600;
+		font-size: 2.0em;
+		font-weight: 800;
 		height: 3.5em;
 		letter-spacing: 0.25em;
 		line-height: 3.5em;
@@ -3474,8 +3474,8 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 1.0em;
-					font-weight: 800;
+					font-size: 1.5em;
+					font-weight: 1200;
 					letter-spacing: 1.0em;
 					text-transform: uppercase;
 				}
