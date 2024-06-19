@@ -14,7 +14,6 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-		id=two background-color: red
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -45,7 +44,7 @@
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-								<h1>健行室內設計作業</h1>
+								<h1>個人室內設計作業</h1>
 							</header>
 							<div class="content">
 								<p>個人室內設計介紹,健行科大在職室內設計網路設計介紹<br />
@@ -67,7 +66,7 @@
 										<img src="images/設計風格.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">設計風格介紹</a></h3>
+										<h1><a href="landing.html" class="link">設計風格介紹</a></h1>
 										<p>圖片觀賞</p>
 									</header>
 								</article>
@@ -76,7 +75,7 @@
 										<img src="images/建築材料.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">建材說明</a></h3>
+										<h1><a href="landing.html" class="link">建材說明</a></h1>
 										<p>建材圖片</p>
 									</header>
 								</article>
@@ -85,7 +84,7 @@
 										<img src="images/設計師.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">設計團隊</a></h3>
+										<h1><a href="landing.html" class="link">設計團隊</a></h1>
 										<p>團隊成員</p>
 									</header>
 								</article>
@@ -94,7 +93,7 @@
 										<img src="images/施工團隊.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">施工團隊</a></h3>
+										<h1><a href="landing.html" class="link">施工團隊</a></h1>
 										<p>施工單位</p>
 									</header>
 								</article>
@@ -103,7 +102,7 @@
 										<img src="images/設計案例.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">案例</a></h3>
+										<h1><a href="landing.html" class="link">案例</a></h1>
 										<p>案例瀏覽</p>
 									</header>
 								</article>
@@ -112,8 +111,8 @@
 										<img src="images/聯絡圖片.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">聯絡我們</a></h3>
-										<p>聯繫方式</p>
+										<h1><a href="landing.html" class="link">聯絡我們</a></h1>
+										<p class="sizes 18px"> 聯繫方式 </p>
 									</header>
 								</article>
 							</section>
@@ -122,69 +121,83 @@
 							<section id="two">
 								<div class="inner">
 									<header class="major">
-										<h2>環保認證</h2>
+										<h1>環保認證</h1>
 									</header>
 									<p>本公司使用材料均為中華民國認證環保材質,使用材料均有綠建築標章.</p>
 									<ul class="actions">
-										<li><a href="https://gb.tabc.org.tw/" target="_blank" class="button next">綠建築網頁</a></li>
+										<li><a href="https://gb.tabc.org.tw/" target="_blank" class="button next">綠色標章網頁</a></li>
 									</ul>
 								</div>
 							</section>
 
 					</div>
 
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">micro.sam@outlook.com</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(886) 989-747-363</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
-							</section>
+	<!-- Contact -->
+	<section id="contact">
+		<div class="inner">
+			<section>
+				<!-- 這一行需要加上onsubmit="return mailto()" -->
+				<form method="post" action="#"  onsubmit="return mailto()">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">名稱</label>
+							<input type="text" name="name" id="name" />
 						</div>
-					</section>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">訊息</label>
+							<textarea name="message" id="message" rows="6"></textarea>
+						</div>
+					</div>
+			
+					<ul class="actions">
+						<li><input type="submit" value="傳送" class="primary" /></li></a>
+						<li><input type="reset" value="清除" /></li>
+					</ul>
+			
+					<!-- 呼叫email程式的語法:start -->
+					<script>
+						function mailto() {
+							name = document.getElementsByName('name')[0].value; // 把使用者輸入的名稱拿出來用
+							email = document.getElementsByName('email')[0].value; // 把使用者輸入的email拿出來用
+							message = document.getElementsByName('message')[0].value.replaceAll('\n', '%0D%0A'); // 把使用者輸入的內容拿出來用
+							window.location.href = "mailto:xxxxxxxxxx@gmail.com?subject=我沒有問題&body=您好, 我是" + name + ":%0D%0A" + message;
+							return false;
+						}
+					</script>
+					<!-- 呼叫email程式的語法:end -->
+				</form>
+			</section>
+			<section class="split">
+				<section>
+					<div class="contact-method">
+						<span class="icon solid alt fa-envelope"></span>
+						<h3>Email</h3>
+						<a href="#">micro.sam@outlook.com</a>
+					</div>
+				</section>
+				<section>
+					<div class="contact-method">
+						<span class="icon solid alt fa-phone"></span>
+						<h3>Phone</h3>
+						<span>(886) 989-747-363</span>
+					</div>
+				</section>
+				<section>
+					<div class="contact-method">
+						<span class="icon solid alt fa-home"></span>
+						<h3>Address</h3>
+						<span>1234 Somewhere Road #5432<br />
+						Nashville, TN 00000<br />
+						United States of America</span>
+					</div>
+				</section>
+			</section>
+		</div>
+	</section>
 
 				<!-- Footer -->
 					<footer id="footer">
