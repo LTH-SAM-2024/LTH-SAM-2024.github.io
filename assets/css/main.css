@@ -119,7 +119,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 30pt;
-		font-weight: 800;
+		font: weight 800px;;
 		letter-spacing: 0.5em;
 		line-height: 1.65;
 	}
@@ -2938,7 +2938,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #96774f;
 		}
 
 			.spotlights > section > .image {
@@ -2947,13 +2947,13 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 50%;
 			}
 
 				.spotlights > section > .image img {
 					border-radius: 0;
 					display: block;
-					width: 100%;
+					width:100%;
 				}
 
 				.spotlights > section > .image:before {
@@ -2986,7 +2986,7 @@ input, select, textarea {
 				-ms-align-items: center;
 				align-items: center;
 				padding: 2em 3em 0.1em 3em ;
-				width: 70%;
+				width: 50%;
 			}
 
 				.spotlights > section > .content > .inner {
